@@ -16,8 +16,9 @@ const Header = ({ jobArray, setJobArray }) => {
   // Hide search when on candidates page (covers /candidates and /candidates/...)
   // Hide search when on candidates or assessments page
   const hideSearch =
-    location.pathname.startsWith("/candidates") ||
-    location.pathname.startsWith("/assessments");
+  location.pathname.startsWith("/candidates") ||
+  location.pathname.startsWith("/assessments") ||
+  location.pathname.startsWith("/responses");
 
   const onSearchChange = (e) => {
     const v = e.target.value;
