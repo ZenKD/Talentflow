@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZenKD/react.git"
+    "url": "https://github.com/ZenKD/Talentflow.git"
   },
   "keywords": [],
   "author": "Kamal Das",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZenKD/react.git/issues"
+    "url": "https://github.com/ZenKD/Talentflow/issues"
   },
-  "homepage": "https://github.com/ZenKD/react.git#readme",
+  "homepage": "https://github.com/ZenKD/Talentflow.git#readme",
   "devDependencies": {
     "@eslint/js": "^9.35.0",
     "css-loader": "^7.1.1",
