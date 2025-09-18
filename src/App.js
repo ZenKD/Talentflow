@@ -17,9 +17,8 @@ import CandidateProfile from "./components/CandidateProfile";
 import { makeServer } from "./mirage/server";
 import { fetchJobs } from "./api/jobs";
 
-if (process.env.NODE_ENV === "development") {
-  makeServer();
-}
+// Run the mock API server in all environments for this project
+makeServer();
 
 const AppLayout = () => {
   const [jobArray, setJobArray] = useState([]);
